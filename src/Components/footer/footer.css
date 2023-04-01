@@ -1,0 +1,13 @@
+.copyright {
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.copyright p {
+    font-size: 14px;
+}
+
+.copyright a {
+    color: rgb(47, 189, 189);
+    font-size: 14px;
+}

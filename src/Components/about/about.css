@@ -1,0 +1,94 @@
+.about-info {
+    display: flex;
+    justify-content: center;
+}
+
+.about-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 2px #ece9e9;
+
+}
+
+.about-name {
+    text-align: center;
+    color: #a9b665;
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.about-social {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.about-link {
+    text-transform: uppercase;
+    color: #5795e0;
+    font-size: 14px;
+}
+
+.tool-item {
+    list-style: none;
+}
+
+.list-tools {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.tool-item {
+    padding: 5px 0 12px 0;
+}
+
+.tool-name {
+    font-size: 14px;
+}
+
+.tools {
+    margin: 10px 0;
+}
+
+.tool-title , .exp-title{
+    font-size: 22px;
+    color: #a9b665;
+}
+
+.about-tool {
+    margin: 4rem 0;
+}
+
+.exp-list {
+    list-style: none;
+}
+
+.exp-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.exp-desc {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.exp-time {
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+.exp {
+    margin:2rem 0 5rem 0;
+}
+
+@media screen and (max-width: 480px) {
+    .about-social {
+        margin: 0;
+    }
+}
